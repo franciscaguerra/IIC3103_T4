@@ -1,5 +1,4 @@
 import requests
-import xmltodict, json
 import pandas as pd 
 import xml.etree.ElementTree as ET
 import gspread 
@@ -65,27 +64,34 @@ def read_root(root):
             dict_data['Numeric'].append(numeric)
             dict_data['Low'].append(low)
             dict_data['High'].append(high)
+    print("Se termino de agregar datos")
     return dict_data
 
 
 
 if __name__ == '__main__':
     request_uno = requests.get('http://tarea-4.2021-1.tallerdeintegracion.cl/gho_CHL.xml').text
+    print("Datos de Chile procesados")
     root_uno = ET.XML(request_uno)
     read_root(root_uno)
     request_dos = requests.get('http://tarea-4.2021-1.tallerdeintegracion.cl/gho_ESP.xml').text
+    print("Datos de España procesados")
     root_dos = ET.XML(request_dos)
     read_root(root_dos)
     request_tres = requests.get('http://tarea-4.2021-1.tallerdeintegracion.cl/gho_FRA.xml').text
+    print("Datos de Francia procesados")
     root_tres = ET.XML(request_tres)
     read_root(root_tres)
     request_cuatro = requests.get('http://tarea-4.2021-1.tallerdeintegracion.cl/gho_BRA.xml').text
+    print("Datos de Brasil procesados")
     root_cuatro = ET.XML(request_cuatro)
     read_root(root_cuatro)
     request_cinco = requests.get('http://tarea-4.2021-1.tallerdeintegracion.cl/gho_USA.xml').text
+    print("Datos de USA procesados")
     root_cinco = ET.XML(request_cinco)
     read_root(root_cinco)
     request_seis = requests.get('http://tarea-4.2021-1.tallerdeintegracion.cl/gho_DEU.xml').text
+    print("Datos de Alemania procesados")
     root_seis = ET.XML(request_seis)
     read_root(root_seis)
 
@@ -93,7 +99,7 @@ if __name__ == '__main__':
     print(df)
 
     gc = gspread.service_account(filename='taller-tarea-4-316707-7653144657a3.json')
-    sh = gc.open_by_key('7653144657a38fd65abe0837fac98cbaf29fef96')
+    sh = gc.open_by_key('19Vej7hkNSJBw5J0sX8kqpmdz-koeQopyFwpv8LBnrGo')
     worksheet = sh.get_worksheet(0)
     set_with_dataframe(worksheet, df)
         
