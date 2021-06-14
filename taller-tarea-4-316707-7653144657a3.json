@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "taller-tarea-4-316707",
+    "private_key_id": "7653144657a38fd65abe0837fac98cbaf29fef96",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCRVdip8WNOGVn\nj8+67kBlABzx7AND7HzsgNmkgguJagZZBTrb6aUBp1zV+p4RTxRGwEVnwbvrIVXZ\n43eCccbTssQooWk6+xYmWh+JbgBm+TeId5zK+xuRE5lAbal+/TPd5j1iT4vsifo4\nuIGXA1SmoNKqqJyhpC4fMt3p8ssa6bTLwBsx2CbYIe9Qam3e0ilMeHTGEweclxR4\n+HCiGbQlMgFQK7ch2dQx5p+pGFVe9apecd3zeRFeJn6V4mUY/NQxjUUQzHKp9mef\nK8cGgzqwnNbMkJmv4qCo5Xl8rCiyGVaDRDTxtMGysg6YWKTI7iad+orxEwumW2Lt\nBggSMHedAgMBAAECggEAF5pqKBPfNi28cE0yPXF2BG9zlNcKfIWuleN/zfN46Fyn\n4cf3Y0GraRyG9H6LFupHOeNha15H8STvM9ZlrkUZlZ36JD+cM+zOv6EihMWHKfus\nihmSRL0ml8VMUN4iAkpMM3EmUxv8EaSf8KVGJW1jqw0OG2r6AM+cRPEesi5sC9xT\n8xn/QUxYS70CIhBBxJVMW7U7c9IxDs44ypUIzTa2nuGy8Q9NcSkE3gKWtpu+bHk0\nYK376jTTNee1ULxRrzZFDFU5vY3S8B81ZZTmD2N5mtPFJq/Y+NVUMdDE/08t+tar\nUD5oUYU/LwOdyNUxa5CXWznrmkwuoakFrw3tvJ/xlwKBgQDr1RfXGlpPFTSZgjOL\nIbInpp69s2zkjKT7X3U8uqog80d7FqsJH3b5vZk88sOawguanSFsJuY+k/xmc41j\npoqaTG0iIKsvBXjEABstOf7rBFeTwo9YmrFk35Cw7bkWvhzl6Tlp6yFoiVlmTxOX\nVBlP5/Fg1ZBHTHiP7vY+O1LZEwKBgQDS4l81RuDlaB+r1qhRnZlgkpbaQpS/UJd+\nhn4w49WgbASrJDHpEkUUteAEjXPl5ZpZQV/8gdj6mdgzB6y/XDtFsOdrlvEaTGjB\ntH/3XUIY2KR+MqCaphoZp2GV3spC91tsmg0XAAfjVjwxw6bxfjgTDDkTFJ8T9hnz\nm1r6xV6yjwKBgCzVTvnypZaBNoW0be4WUtMc5vKzaJEud7LeG+CWr/8hoMYysgNC\n+xBRTg97K1qBZ0lWc+MmpgDhi0tCzm9SWukofFrPkRuYU7QXPRNlAiRVp/yMMUor\n5muB4PTxzI0ZSU8f/m03aRuBeQBtKhFLyKAbPRUmpI4ZaJYcXK3KA18HAoGAWYMw\n+oJNb9LUrrH83DfTJMTUN2zPiq2AwHoCEmqDAQcYrDQ+4zmYDQRuREBuk4T0ETLI\ntXvASA8JUA/P6aISnrBKasa1LH6GcMJXFv6E0dsTZ2XB+iLLLVx49Y6NuAMa0WxK\nZhrjPkIaZt0vfY4f6yXjDBBSvbxWo6qr4Ynpek0CgYAK8FnzKxfVBCSZFW0/tTCu\np4Kdjum/ueKQYTFYcaO1/iI3X4cUKvow9WyfoClwI8PJmWPKDNmB133cBcW7RPVH\nI9gpAwkFLkpvcIfIIfz8JbrT9iqdmZRjjJ540fvJI/Rpa/3QuKqaXuAolFmkpvxf\n3yqLnTGHgbCtYUxtBRYJew==\n-----END PRIVATE KEY-----\n",
+    "client_email": "fxguerra@taller-tarea-4-316707.iam.gserviceaccount.com",
+    "client_id": "108438066576194911076",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fxguerra%40taller-tarea-4-316707.iam.gserviceaccount.com"
+  }
