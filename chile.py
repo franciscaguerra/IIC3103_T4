@@ -48,11 +48,11 @@ def read_root(root):
             elif child2.tag == "Display":
                 display = child2.text
             elif child2.tag == "Numeric":
-                numeric = child2.text
+                numeric = float(child2.text)
             elif child2.tag == "Low":
-                low = child2.text
+                low = float(child2.text)
             elif child2.tag == "High":
-                high = child2.text
+                high = float(child2.text)
         if gho in metrics:
             dict_data['GHO'].append(gho)
             dict_data['COUNTRY'].append(country)
